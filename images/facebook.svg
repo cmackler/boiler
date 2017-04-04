@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="75px" height="75px" viewBox="0 0 75 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flatIconSet-" transform="translate(-376.000000, -95.000000)">
+            <g id="Facebook" transform="translate(376.000000, 95.000000)">
+                <polygon id="Fill-44" fill="#385084" points="0 75 75 75 75 0 0 0"></polygon>
+                <path d="M65.409,44.896 L66.89,33.417 L55.521,33.417 L55.521,26.087 C55.521,22.763 56.448,20.498 61.214,20.498 L67.288,20.495 L67.288,10.227 C66.239,10.087 62.634,9.775 58.432,9.775 C49.666,9.775 43.669,15.126 43.669,24.951 L43.669,33.417 L33.755,33.417 L33.755,44.896 L43.669,44.896 L43.669,74.352 L55.521,74.352 L55.521,44.896 L65.409,44.896" id="Fill-45" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

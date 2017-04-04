@@ -1,0 +1,29 @@
+{
+  "remote": {
+    "host":                       "hostname",
+    "site_url":                   "http://site.com",
+    "sr_remote":                  "site.com",
+    "username":                   "account_username",
+    "password":                   "acount_password",
+    "port":                       "2222",    
+    "dbname":                     "db_to_create",
+    "dbuser":                     "db_user",
+    "dbpass":                     "db_password",
+    "dbhost":                     "localhost",
+    "db_save_path":               "/home/username/public_html/path_to_theme",
+    "db_save_url":                "http://site.com/wp-content/themes/your_theme/",
+    "wpcontent_dir":              "/home/username/public_html/path_to_wp-content_folder/",
+    "theme_dir":                  "/home/username/public_html/path_to_theme/",
+    "root_dir":                   "/home/username/public_html/"    
+  },
+  "local": {
+    "site_url":                   "http://site.dev",
+    "sr_local":                   "site.dev",
+    "dbname":                     "local_db_name",
+    "dbuser":                     "wp",
+    "dbpass":                     "wp",
+    "dbhost":                     "0.0.0.0",
+    "db_dump_dir":                "/srv/www/path_to_theme/",
+    "db_local_dump_dir":          "~/local_dev/vvv/www/path_to_theme/"  
+  }
+}

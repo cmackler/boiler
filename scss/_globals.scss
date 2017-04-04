@@ -1,0 +1,177 @@
+//Font Styles---------------------------------
+body {
+	@include helvetica(#424242);
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 15px 0;
+}
+
+.logo p {
+	font-size: 36px;
+	display: none;
+}	
+
+h1{
+	color: $color1;
+	font-size: 33px;
+	font-weight: bold;
+	line-height: normal;
+}
+
+h2 {
+	color: $color2;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: normal;
+}
+
+h3 {
+	color: $color3;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+h4 {
+	color: $color3;
+	font-size: 16px;
+}
+
+h5 {
+	color: $color3;
+	font-size: 14px;
+}
+
+//Link Styles--------------------------
+
+a {
+	color: $link;
+	&:hover,
+	&:focus {
+		color: $link-hover;
+		text-decoration: none;
+	}
+	&:visted {
+		color: $link-visited;
+		text-decoration: none;
+	}
+	text-decoration: none;
+}
+
+.copyright a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.copyright a:hover {
+	color: #aaa;
+}
+
+
+
+//Buttons------------------------------
+
+.btn {
+	white-space: normal !important;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+	background-color: #21864E;
+	border-color: none;
+}
+
+.btn-primary {
+	background-color: #0b4a27;
+	border-color: none;
+}
+
+//Misc-------------------------------------
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.alignleft {
+	float: left; 
+	margin: 0 10px 10px 0;
+}
+
+.alignright {
+	float: right; 
+	margin: 0 0 10px 10px;
+}
+
+.aligncenter {
+	display: block;
+	float: none; 
+	margin: 0 auto;
+}
+
+hr {
+	border-top: 1px solid #D7D7D7;
+}
+
+blockquote {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 15px;
+}
+
+.google-map iframe {
+	max-width: 100%;
+}
+
+.edit-link {
+	clear: both;
+}
+
+.video-container {
+	clear: both;
+}
+
+.nav-previous {
+	float: left;
+}
+
+.nav-next {
+	float: right;
+}
+
+.copyright {
+	margin: 10px 0;
+	clear: both;
+	color: #fff;
+}
+
+.preload1 {
+	display: none;
+	background: url("../images/facebook.svg") no-repeat;
+}
+
+.preload1 {
+	display: none;
+	background: url("../images/twitter.svg") no-repeat;
+}
+
+.preload1 {
+	display: none;
+	background: url("../images/google.svg") no-repeat;
+}
+
+.preload1 {
+	display: none;
+	background: url("../images/youtube.svg") no-repeat;
+}
+
+.preload1 {
+	display: none;
+	background: url("../images/linkedin.svg") no-repeat;
+}
+
+//Contact Form 7 Styles-------------------------
+.wpcf7-list-item {
+	display: block;
+}
