@@ -1,12 +1,13 @@
 # boiler
 WordPress starter theme using Bootstrap 3 and cycle2 slider.
 
-Requires Advanced Custom Fields
+<strong>*Requires Advanced Custom Fields</strong>
 
 Optional Plugins include: 
-
-Contact Form 7
-Flamingo
-The Events Calendar
-Black Studio TinyMCE Widget
-Yoast SEO
+<ul>
+<li>Contact Form 7</li>
+<li>Flamingo</li>
+<li>The Events Calendar</li>
+<li>Black Studio TinyMCE Widget</li>
+<li>Yoast SEO</li>
+</ul>
